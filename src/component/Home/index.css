@@ -1,0 +1,154 @@
+.home-side-bar-container{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    overflow: hidden;
+}
+
+.home-container{
+    width:85%;
+    background-color:aliceblue;
+    height:90vh;
+    position: fixed;
+    top:13vh;
+    left:16vw;
+    padding:10px
+}
+
+.current-task-setting-btn{
+    width:90%;
+    height:40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-btn{
+    border:0px;
+    height:40px;
+    width:100px;
+    background-color: white;
+    border-radius:5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+}
+
+.order-btn:hover{
+    background-color:blue;
+    color:white;
+}
+
+.cancel{
+    font-size:24px;
+}
+
+.status-list{
+    width:90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:40px;
+    list-style: none;
+}
+
+.status{
+    font-size:20px;
+    font-family: "Roboto";
+    font-weight:500;
+}
+
+.status:hover{
+    background-color:lightblue;
+    color:blue;
+    text-decoration: underline;
+    padding:10px;
+    border-radius:5px;
+}
+
+.category{
+    height:40px;
+    width:120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+    background-color: white;
+    border-radius: 5px;
+    border-width: 2px;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.refresh-btn{
+    height:40px;
+    width:120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+    background-color: blue;
+    color:white;
+    border-width:0px;
+    border-radius:5px;
+    padding:10px;
+}
+
+.category-refresh{
+    width:90%;
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category-container{
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.category:hover{
+    background-color: grey;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    height:40vh;
+    overflow: auto;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: lightblue;
+}
+
+.table-icon{
+    margin:5px;
+}
+
+.table-column{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bag-icon{
+    color:green;
+}
