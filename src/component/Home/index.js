@@ -7,7 +7,8 @@ import { IoIosRefresh } from "react-icons/io";
 import { AiFillFilter } from "react-icons/ai";
 import { TbCaretUpDownFilled } from "react-icons/tb";
 import { FiPlusSquare } from "react-icons/fi";
-import { FaSackDollar } from "react-icons/fa6";
+import { FaSackDollar,FaAngleRight } from "react-icons/fa6";
+import { FaChevronLeft } from "react-icons/fa";
 import Header from "../Header"
 import SideBar from "../SideBar"
 import "./index.css"
@@ -147,7 +148,16 @@ class Home extends Component{
                         <p>Refresh</p>
                     </button>
                 </div>
-            {this.renderTheTabluarForm()}</div>
+            {this.renderTheTabluarForm()}
+            <div className="page-count-container">
+                    <div className="count-container">
+                        <FaChevronLeft size={25}/>
+                        <p className="count">1</p>
+                        <FaAngleRight size={25}/>
+                    </div>
+                    <p className="page-num">20/ Pages</p>
+            </div>
+        </div>
         </div>
     )
 

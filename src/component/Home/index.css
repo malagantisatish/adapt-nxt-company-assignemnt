@@ -122,6 +122,7 @@ table {
     border-collapse: collapse;
     height:40vh;
     overflow: auto;
+    background-color: white;
 }
 
 th, td {
@@ -151,4 +152,43 @@ tr:hover {
 
 .bag-icon{
     color:green;
+}
+
+.page-count-container{
+    display: flex;
+    width:90%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.count-container{
+    width:15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.count{
+    border:solid 2px blue;
+    height:30px;
+    width:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-family: bold;
+}
+
+.page-num{
+    height:30px;
+    width:100px;
+    border:solid 2px grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-family: bold;
+
 }
